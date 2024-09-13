@@ -1,0 +1,14 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: auth-service
+
+jwt:
+  token:
+    secret: SECRET_KEY_2021
+    access: 900000
+    refresh: 28800000
+    temp: 604800000
+    expiration: 86400
